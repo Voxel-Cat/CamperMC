@@ -1,5 +1,8 @@
 {
+  "gui.campermc.campsite_hub_gui.label_crafting": "Crafting",
   "block.campermc.campsitehub": "Campsite hub",
   "block.campermc.cuttingboard": "Cutting Board",
+  "gui.campermc.campsite_hub_gui.label_campsite": "Campsite",
+  "gui.campermc.crafting_menu.label_under_construction": "UNDER CONSTRUCTION",
   "item_group.campermc.camping_gear": "Camping Gear"
 }

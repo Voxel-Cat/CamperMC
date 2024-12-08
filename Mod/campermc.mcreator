@@ -43,6 +43,67 @@
           "src/main/resources/data/campermc/loot_tables/blocks/cuttingboard.json"
         ]
       }
+    },
+    {
+      "name": "CampsiteHubGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "campsite_hub_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/campermc/world/inventory/CampsiteHubGUIMenu.java",
+          "src/main/java/net/mcreator/campermc/client/gui/CampsiteHubGUIScreen.java",
+          "src/main/java/net/mcreator/campermc/network/CampsiteHubGUIButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "OpenCraftingMenu",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_crafting_menu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/campermc/procedures/OpenCraftingMenuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CraftingMenu",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting_menu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/campermc/world/inventory/CraftingMenuMenu.java",
+          "src/main/java/net/mcreator/campermc/client/gui/CraftingMenuScreen.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -51,8 +112,11 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "gui.campermc.campsite_hub_gui.label_crafting": "Crafting",
       "block.campermc.campsitehub": "Campsite hub",
       "block.campermc.cuttingboard": "Cutting Board",
+      "gui.campermc.campsite_hub_gui.label_campsite": "Campsite",
+      "gui.campermc.crafting_menu.label_under_construction": "UNDER CONSTRUCTION",
       "item_group.campermc.camping_gear": "Camping Gear"
     }
   },
@@ -64,7 +128,7 @@
     "modid": "campermc",
     "modName": "CamperMC",
     "version": "1.0.0",
-    "author": "miles, MCreator",
+    "author": "Voxel, Void Drifter",
     "websiteURL": "https://mcreator.net",
     "license": "Not specified",
     "serverSideOnly": false,

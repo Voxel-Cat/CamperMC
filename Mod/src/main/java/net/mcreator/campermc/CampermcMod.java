@@ -18,6 +18,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.campermc.init.CampermcModTabs;
+import net.mcreator.campermc.init.CampermcModMenus;
 import net.mcreator.campermc.init.CampermcModItems;
 import net.mcreator.campermc.init.CampermcModBlocks;
 import net.mcreator.campermc.init.CampermcModBlockEntities;
@@ -47,6 +48,8 @@ public class CampermcMod {
 		CampermcModItems.REGISTRY.register(bus);
 
 		CampermcModTabs.REGISTRY.register(bus);
+
+		CampermcModMenus.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

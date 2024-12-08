@@ -1,0 +1,94 @@
+{
+  "mod_elements": [
+    {
+      "name": "Campsitehub",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "campsitehub",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/campermc/blockstates/campsitehub.json",
+          "src/main/resources/assets/campermc/models/block/campsitehub.json",
+          "src/main/java/net/mcreator/campermc/block/CampsitehubBlock.java",
+          "src/main/resources/data/campermc/loot_tables/blocks/campsitehub.json",
+          "src/main/java/net/mcreator/campermc/block/entity/CampsitehubBlockEntity.java",
+          "src/main/resources/assets/campermc/models/item/campsitehub.json"
+        ]
+      }
+    },
+    {
+      "name": "CampingGear",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "camping_gear",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Cuttingboard",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuttingboard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/campermc/blockstates/cuttingboard.json",
+          "src/main/resources/assets/campermc/models/block/cuttingboard.json",
+          "src/main/java/net/mcreator/campermc/block/CuttingboardBlock.java",
+          "src/main/resources/assets/campermc/models/item/cuttingboard.json",
+          "src/main/java/net/mcreator/campermc/block/entity/CuttingboardBlockEntity.java",
+          "src/main/resources/data/campermc/loot_tables/blocks/cuttingboard.json"
+        ]
+      }
+    },
+    {
+      "name": "CampsiteHubGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "campsite_hub_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/campermc/world/inventory/CampsiteHubGUIMenu.java",
+          "src/main/java/net/mcreator/campermc/client/gui/CampsiteHubGUIScreen.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "gui.campermc.campsite_hub_gui.label_crafting": "Crafting",
+      "block.campermc.campsitehub": "Campsite hub",
+      "block.campermc.cuttingboard": "Cutting Board",
+      "gui.campermc.campsite_hub_gui.label_campsite": "Campsite",
+      "item_group.campermc.camping_gear": "Camping Gear"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "campermc",
+    "modName": "CamperMC",
+    "version": "1.0.0",
+    "author": "miles, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.campermc"
+  },
+  "mcreatorVersion": 202400342716
+}

@@ -1,0 +1,65 @@
+{
+  "_fv": 69,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 300,
+    "height": 175,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_campsite",
+          "text": {
+            "fixedValue": "Campsite"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 195,
+          "y": 44
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_craftingmenu",
+          "image": "craftingmenu.png",
+          "hoveredImage": "craftingmenu_hover.png",
+          "onClick": {
+            "name": "OpenCraftingMenu"
+          },
+          "x": 87,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_crafting",
+          "text": {
+            "fixedValue": "Crafting"
+          },
+          "color": {
+            "value": -11119018,
+            "falpha": 0.0
+          },
+          "x": 114,
+          "y": 62
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

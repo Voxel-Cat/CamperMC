@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "campermc:item/bed"
+    "layer0": "campermc:item/bedroll"
   },
   "render_type": "translucent"
 }
