@@ -1,0 +1,50 @@
+{
+  "mod_elements": [
+    {
+      "name": "Campsitehub",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "campsitehub",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/campermc/block/entity/CampsitehubBlockEntity.java",
+          "src/main/java/net/mcreator/campermc/block/CampsitehubBlock.java",
+          "src/main/resources/assets/campermc/models/block/campsitehub.json",
+          "src/main/resources/assets/campermc/models/item/campsitehub.json",
+          "src/main/resources/assets/campermc/blockstates/campsitehub.json",
+          "src/main/resources/data/campermc/loot_tables/blocks/campsitehub.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.campermc.campsitehub": "Campsite hub"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "campermc",
+    "modName": "CamperMC",
+    "version": "1.0.0",
+    "author": "miles, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.campermc"
+  },
+  "mcreatorVersion": 202400342716
+}

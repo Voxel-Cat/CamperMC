@@ -1,0 +1,9 @@
+{
+  "parent": "campermc:custom/model_1",
+  "textures": {
+    "all": "minecraft:block/oak_planks",
+    "particle": "minecraft:block/oak_planks",
+    "0": "minecraft:block/oak_planks"
+  },
+  "render_type": "solid"
+}

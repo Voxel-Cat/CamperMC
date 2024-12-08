@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "campermc:block/cuttingboard"
+    },
+    "facing=east": {
+      "model": "campermc:block/cuttingboard",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "campermc:block/cuttingboard",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "campermc:block/cuttingboard",
+      "y": 270
+    }
+  }
+}

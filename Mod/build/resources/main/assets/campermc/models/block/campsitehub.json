@@ -1,0 +1,9 @@
+{
+  "parent": "campermc:custom/campsite_hub-block",
+  "textures": {
+    "all": "campermc:block/campsitehub",
+    "particle": "minecraft:block/birch_planks",
+    "0": "campermc:block/campsitehub"
+  },
+  "render_type": "solid"
+}

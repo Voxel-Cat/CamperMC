@@ -17,6 +17,11 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.campermc.init.CampermcModTabs;
+import net.mcreator.campermc.init.CampermcModItems;
+import net.mcreator.campermc.init.CampermcModBlocks;
+import net.mcreator.campermc.init.CampermcModBlockEntities;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -36,6 +41,12 @@ public class CampermcMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		CampermcModBlocks.REGISTRY.register(bus);
+		CampermcModBlockEntities.REGISTRY.register(bus);
+		CampermcModItems.REGISTRY.register(bus);
+
+		CampermcModTabs.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
