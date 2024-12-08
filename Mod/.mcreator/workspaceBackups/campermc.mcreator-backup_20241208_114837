@@ -8,12 +8,12 @@
       "registry_name": "campsitehub",
       "metadata": {
         "files": [
-          "src/main/resources/assets/campermc/blockstates/campsitehub.json",
-          "src/main/resources/assets/campermc/models/block/campsitehub.json",
-          "src/main/java/net/mcreator/campermc/block/CampsitehubBlock.java",
-          "src/main/resources/data/campermc/loot_tables/blocks/campsitehub.json",
           "src/main/java/net/mcreator/campermc/block/entity/CampsitehubBlockEntity.java",
-          "src/main/resources/assets/campermc/models/item/campsitehub.json"
+          "src/main/java/net/mcreator/campermc/block/CampsitehubBlock.java",
+          "src/main/resources/assets/campermc/models/block/campsitehub.json",
+          "src/main/resources/assets/campermc/models/item/campsitehub.json",
+          "src/main/resources/assets/campermc/blockstates/campsitehub.json",
+          "src/main/resources/data/campermc/loot_tables/blocks/campsitehub.json"
         ]
       }
     },
@@ -37,10 +37,10 @@
         "files": [
           "src/main/resources/assets/campermc/blockstates/cuttingboard.json",
           "src/main/resources/assets/campermc/models/block/cuttingboard.json",
-          "src/main/java/net/mcreator/campermc/block/CuttingboardBlock.java",
-          "src/main/resources/assets/campermc/models/item/cuttingboard.json",
+          "src/main/resources/data/campermc/loot_tables/blocks/cuttingboard.json",
           "src/main/java/net/mcreator/campermc/block/entity/CuttingboardBlockEntity.java",
-          "src/main/resources/data/campermc/loot_tables/blocks/cuttingboard.json"
+          "src/main/resources/assets/campermc/models/item/cuttingboard.json",
+          "src/main/java/net/mcreator/campermc/block/CuttingboardBlock.java"
         ]
       }
     }
